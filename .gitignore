@@ -1,0 +1,36 @@
+# Windows
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Model weights and data (never commit)
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.zip
+*.npz
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+*.log
